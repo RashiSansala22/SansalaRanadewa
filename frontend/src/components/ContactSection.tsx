@@ -26,15 +26,15 @@ const ContactSection: React.FC = () => {
 
     emailjs
       .send(
-        "your_service_id", // 🔹 Replace with EmailJS Service ID
-        "your_template_id", // 🔹 Replace with EmailJS Template ID
+        "service_9suosq5", // 🔹 Replace with EmailJS Service ID
+        "template_u1sr34p", // 🔹 Replace with EmailJS Template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        "your_public_key" // 🔹 Replace with EmailJS Public Key
+        "_s2fs_qzHvLS0YmUd" // 🔹 Replace with EmailJS Public Key
       )
       .then(
         () => {
